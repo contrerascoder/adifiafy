@@ -1,0 +1,26 @@
+{
+	// Place your área de trabajo de pleitos snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"vdialog": {
+		"prefix": "vdialog",
+		"body": [
+			"<v-dialog v-model='budgetDialog'>",
+			"    <template v-slot:activator='{on}'>",
+			"        <v-btn text color='primary' v-on='on'>${1:Mostrar}</v-btn>",
+			"    </template>",
+			"    <v-card>",
+			"        <v-card-title>${2:Vuetify dialog}</v-card-title>",
+			"        <v-card-text>",
+			"            ${3:<p>Contenido del dialogo</p>}",
+			"        </v-card-text>",
+			"    </v-card>",
+			"</v-dialog>",
+		],
+		"description": "Vuetify dialog"
+	}
+}

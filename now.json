@@ -1,0 +1,25 @@
+{
+    "name": "adifia-web",
+    "build": {
+        "env": {
+            "URIDB":"mongodb://root:Alumno1994&@ds263927.mlab.com:63927/heroku_4lc7hn73",
+            "SALTS":"10",
+            "BASE_URL":"/api",
+            "DEFAULT_USER_PASSWD":"alumno",
+            "PORT":"8080",
+            "JWT_SECRET":"mkldsmlklkmsdklmsdklm",
+            "EMAIL_NODEMAIL":"raultrymailer@gmail.com",
+            "PASS_NODEMAIL":"alumno20"
+        }
+    },
+    "env": {
+        "URIDB":"mongodb://root:Alumno1994&@ds263927.mlab.com:63927/heroku_4lc7hn73",
+        "SALTS":"10",
+        "BASE_URL":"/api",
+        "DEFAULT_USER_PASSWD":"alumno",
+        "PORT":"8080",
+        "JWT_SECRET":"mkldsmlklkmsdklmsdklm",
+        "EMAIL_NODEMAIL":"raultrymailer@gmail.com",
+        "PASS_NODEMAIL":"alumno20"
+    }
+}

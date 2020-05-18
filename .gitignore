@@ -1,0 +1,10 @@
+dist
+.dist
+node_modules
+.nuxt
+.env
+report*
+flow-typed
+server
+fullpage.js
+public

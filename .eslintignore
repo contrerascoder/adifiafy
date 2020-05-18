@@ -1,0 +1,9 @@
+dist
+node_modules
+.nuxt
+flow-typed
+server
+fullpage.js
+output
+public
+test.js

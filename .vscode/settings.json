@@ -1,0 +1,27 @@
+{
+    "path-autocomplete.pathMappings": {
+        "@": "${folder}/app"
+    },
+    "git.postCommitCommand": "push",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "eslint.autoFixOnSave": true,
+    "files.eol": "\n",
+    "javascript.validate.enable": false,
+    "eslint.validate": [
+        {
+          "language": "vue",
+          "autoFix": true
+        },
+        {
+          "language": "html",
+          "autoFix": true
+        },
+        {
+          "language": "javascript",
+          "autoFix": true
+        }
+      ],
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+}
