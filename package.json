@@ -58,7 +58,7 @@
     "express-validator": "^6.2.0",
     "faker": "^4.1.0",
     "husky": "^3.1.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "mailgun-js": "^0.22.0",
     "md5": "^2.2.1",
